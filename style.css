@@ -1,0 +1,176 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e1b4b,#312e81);
+    color:white;
+}
+
+.nav{
+    position:sticky;
+    top:0;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 8%;
+
+    background:rgba(255,255,255,0.08);
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    color:#a78bfa;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#a78bfa;
+}
+
+.btn{
+    background:#a78bfa;
+    padding:10px 18px;
+    border-radius:10px;
+    text-decoration:none;
+    color:white;
+}
+
+/* HERO */
+.hero{
+    height:90vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:0 10%;
+}
+
+.hero h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+    opacity:0.8;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    justify-content:center;
+}
+
+.primary{
+    background:#a78bfa;
+    padding:12px 22px;
+    border-radius:10px;
+    color:white;
+    text-decoration:none;
+}
+
+.secondary{
+    border:1px solid white;
+    padding:12px 22px;
+    border-radius:10px;
+    color:white;
+    text-decoration:none;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:60px 8%;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:rgba(255,255,255,0.08);
+    padding:25px;
+    border-radius:15px;
+    width:280px;
+
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.1);
+}
+
+.card h3{
+    margin-bottom:10px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    opacity:0.7;
+}
+.personas-section {
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+    color: white;
+    padding: 4rem 10%;
+}
+
+.personas-section .hero-content {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.personas-section .hero-content h1 {
+    color: white;
+    font-size: 2.2rem;
+}
+
+.personas-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2.5rem; 
+    max-width: 850px; 
+    margin: 0 auto; 
+}
+
+.persona-card {
+    background-color: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    padding: 2rem;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+.persona-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #a8dadc;
+}
+
+.persona-card strong {
+    color: #f1faee;
+}
+
+.persona-card ul {
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
